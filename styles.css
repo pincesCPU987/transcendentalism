@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Product Sans';
+  src: url("productsans.ttf") format("truetype");
+}
+
+body {
+  background-image: url("background.png");
+  color: white;
+  font-family: 'Product Sans', sans-serif;
+}
+
+#images {
+  box-sizing: border-box;
+}
+#text {
+  box-sizing: border-box;
+}
+
+.e {
+  display: inline-block;
+  transform: translateX(-0.5px) rotate(-20deg);
+}
+
+.doublsiz {
+  font-size: 5em;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+::selection {
+  background-color: none;
+  text-shadow: 0 0 3px #0f0;
+  color: black;
+}
+
+img {
+  width: 33%;
+}
